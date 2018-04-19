@@ -55,9 +55,9 @@ The different parts might be sent in sequential requests and are identified and 
 | ------------- | --------------- |:---------------:| --------------:| -----------------:| ------------------ |------------------- | ------------------- | ------------------- | ------------------- |
 | Format             |              |                | PDF, PS        | PDF, PS           | Onix, JSON        | Epub, Mobi, ibooks, PDF | JPG | HTML, PDF | JSON, XML |
 | Simple printing    | Publisher | Printer            | X | N | X | (small subset to identify titles)   | | | | |
-| POD                | Publisher | POD Provider       | X | N | X | X | | | | |
+| POD                | Publisher | POD Provider       | X | N | X | X |   |    |  |   |
 | Directory supply   | Publisher | Directory          |   |   |   | X | ? | X | X | X |
-| Ebook distribution | Publisher | Ebook platformt    |   |   |   | X | X | X | X | 
+| Ebook distribution | Publisher | Ebook platformt    |   |   |   |   | X | X | X | X | 
 | Book Distribution  | Publisher  | Book Distributor  |   |   |   | X |   |   |   | X |
 
 

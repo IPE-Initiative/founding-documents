@@ -57,9 +57,9 @@ The different parts might be sent in sequential requests and are identified and 
 | Simple printing    | Publisher | Printer            | X | N | X | (small subset to identify titles)   |  |  |  |  |
 | POD                | Publisher | POD Provider       | X | N | X | X |   |    |  |   |
 | Directory supply   | Publisher | Directory          |   |   |   | X | ? | X | X | X |
-| Ebook distribution | Publisher | Ebook platformt    |   |   |   |   | X | X | X | X | 
+| Ebook distribution | Publisher | Ebook platform     |   |   |   |   | X | X | X | X | 
 | Book Distribution  | Publisher  | Book Distributor  |   |   |   | X |   |   |   | X |
-
+| Bookstore incoming | Book Distribution | Bookstore  |   |   |   | X |   |   |   | X |
 
 
 **?** = Might be useful sometimes

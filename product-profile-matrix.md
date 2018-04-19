@@ -6,21 +6,21 @@ Scope of this profile is to create, updated and delete product information among
 Actors
 ------
 
-* *Publisher* A publishing house or an entitiy within a publishing house. (e.g. CPI)
+* **Publisher** A publishing house or an entitiy within a publishing house. (e.g. CPI)
 
-* *Printer* Somebody who prints products. (e.g. CPI) 
+* **Printer** Somebody who prints products. (e.g. CPI) 
 
-* *POD Supplier* A printer which also sells items in their own name or in the name of the publisher (e.g. BOD, KNV-POD, Amazon POD)
+* **POD Supplier** A printer which also sells items in their own name or in the name of the publisher (e.g. BOD, KNV-POD, Amazon POD)
 
-* *Book Distributor* Somebody who stores printed books and delivers them to third parties if requested.
+* **Book Distributor** Somebody who stores printed books and delivers them to third parties if requested.
 
-* *Wholeseller* Somebody who resells books (e.g. Libri, KNV)
+* **Wholeseller** Somebody who resells books (e.g. Libri, KNV)
 
-* *Bookstore* Sobodoy who buys books from Wholeseller and sells them to consumers
+* **Bookstore** Sobodoy who buys books from Wholeseller and sells them to consumers
 
-* *Consumer* Sombody who buys and consumes/reads products
+* **Consumer** Sombody who buys and consumes/reads products
 
-* *Directories* Service providers who collect all data which are relevant for selling and makes them accessable for other parties.
+* **Directories** Service providers who collect all data which are relevant for selling and makes them accessable for other parties.
 
 Identifier
 ----------
@@ -31,10 +31,17 @@ Every product should have a (globally) unique identifier. An identifier could be
 Components
 ----------
 
+* **...** *TODO* Add missing parts here
 
-* *Sale information* Information you need to sell your product. More or less the information which would be displayed on a storefront (e.g. title, subtitle, contributors, categories, keywords, bisac subjects, abstract, prices, sales rights)
+* ***Bookblock*** Bookblock in printable form
 
-* *Order information* Information you need to actually order a book. Like which wholeseller has it in stock.
+* **Print information*** All information you need to print the book. e.g. type of paper, size, radius of corner, type of binding, etc.
+
+* ***Cover*** Cover file in a printable format. It could be the printable file for the Hardcover, Jacket, etc.
+
+* **Sale information** Information you need to sell your product. More or less the information which would be displayed on a storefront (e.g. title, subtitle, contributors, categories, keywords, bisac subjects, abstract, prices, sales rights)
+
+* **Order information** Information you need to actually order a book. Like which wholeseller has it in stock.
 
 Matrix
 ------
@@ -44,19 +51,19 @@ Among the supply chain the different players interchange all information necessa
 The different parts might be sent in sequential requests and are identified and bound together by the unique identifier.
 
 
-| Process Name  | Sender          | Receiver        | Bookblock      | Cover             | Sale information  | Ebook  | Marketing Images | Marketing Extracts |   Order information |
+| Process Name  | Sender          | Receiver        | Bookblock      | Cover         | Printing information    | Sale information  | Ebook  | Marketing Images | Marketing Extracts |   Order information |
 | ------------- | --------------- |:---------------:| --------------:| -----------------:| ------------------ |------------------- | ------------------- | ------------------- | ------------------- |
 | Format             |              |                | PDF, PS        | PDF, PS           | Onix, JSON        | Epub, Mobi, ibooks, PDF | JPG | HTML, PDF | JSON, XML |
-| Simple printing    | Publisher | Printer            | X | N | (small subset to identify titles)   | | | | |
-| POD                | Publisher | POD Provider       | X | N | X | | | | |
-| Directory supply   | Publisher | Directory          |   |   | X | ? | X | X | X |
-| Ebook distribution | Publisher | Ebook platformt    |   |   | X | X | X | X | 
-| Book Distribution  | Publisher  | Book Distributor  |   |   | X |   |   |   | X |
+| Simple printing    | Publisher | Printer            | X | N | X | (small subset to identify titles)   | | | | |
+| POD                | Publisher | POD Provider       | X | N | X | X | | | | |
+| Directory supply   | Publisher | Directory          |   |   |   | X | ? | X | X | X |
+| Ebook distribution | Publisher | Ebook platformt    |   |   |   | X | X | X | X | 
+| Book Distribution  | Publisher  | Book Distributor  |   |   |   | X |   |   |   | X |
 
 
 
-? = Might be useful sometimes
+**?** = Might be useful sometimes
 
-X = required
+**X** = required
 
-N = might have several instances (e.g. several cover files per print job)
+**N** = might have several instances of the component (e.g. several cover files per print job)

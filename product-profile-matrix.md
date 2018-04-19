@@ -52,9 +52,9 @@ The different parts might be sent in sequential requests and are identified and 
 
 
 | Process Name  | Sender          | Receiver        | Bookblock      | Cover         | Printing information    | Sale information  | Ebook  | Marketing Images | Marketing Extracts |   Order information |
-| ------------- | --------------- |:---------------:| --------------:| -----------------:| ------------------ |------------------- | ------------------- | ------------------- | ------------------- |
+| ------------- | --------------- |:---------------:| --------------:| -----------------:| ------------------:|-------------------:| -------------------:| -------------------:| -------------------:| -------------------:|
 | Format             |              |                | PDF, PS        | PDF, PS          | JSON, CSV | Onix, JSON        | Epub, Mobi, ibooks, PDF | JPG | HTML, PDF | JSON, XML |
-| Simple printing    | Publisher | Printer            | X | N | X | (small subset to identify titles)   | | | | |
+| Simple printing    | Publisher | Printer            | X | N | X | (small subset to identify titles)   |  |  |  |  |
 | POD                | Publisher | POD Provider       | X | N | X | X |   |    |  |   |
 | Directory supply   | Publisher | Directory          |   |   |   | X | ? | X | X | X |
 | Ebook distribution | Publisher | Ebook platformt    |   |   |   |   | X | X | X | X | 

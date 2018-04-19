@@ -31,17 +31,19 @@ Every product should have a (globally) unique identifier. An identifier could be
 Components
 ----------
 
-* **...** *TODO* Add missing parts here
-
 * ***Bookblock*** Bookblock in printable form
 
-* **Print information*** All information you need to print the book. e.g. type of paper, size, radius of corner, type of binding, etc.
+* **Cover** Cover file in a printable format. It could be the printable file for the Hardcover, Jacket, etc.
 
-* ***Cover*** Cover file in a printable format. It could be the printable file for the Hardcover, Jacket, etc.
+* **Printing information** All information you need to print the book. e.g. type of paper, size, radius of corner, type of binding, etc.
+
+* **Ebook** Ebook is the electronic asset. Usually an epub (epub3/epub3) or its variants (.mobi, iBooks). 
 
 * **Sale information** Information you need to sell your product. More or less the information which would be displayed on a storefront (e.g. title, subtitle, contributors, categories, keywords, bisac subjects, abstract, prices, sales rights)
 
 * **Order information** Information you need to actually order a book. Like which wholeseller has it in stock.
+
+* **Marketing information*** Might be extracts of titles, reviews, press-articles, summaries, biography of the author
 
 Matrix
 ------

@@ -27,7 +27,7 @@ Actors
 
 * **Wholeseller** Somebody who resells books (e.g. Libri, KNV).
 
-* **Ebook Distributor** Platforms who distribute ebooks and their metadata to other parties. They could do this in the name of the publishing house (distribution model) or in their own name (aggegation model). (e.g. (readbox)[http://www.readbox.net], (openpublishing)[http://www.readbox.net], Bookwire)
+* **Ebook Distributor** Platforms who distribute ebooks and their metadata to other parties. They could do this in the name of the publishing house (distribution model) or in their own name (aggegation model). (e.g. [readbox](http://www.readbox.net), [openpublishing](http://openpublishing.com), Bookwire)
 
 * **Bookstore** Sobodoy who buys books from Wholeseller and sells them to consumers (e.g. Thalia)
 
@@ -35,7 +35,7 @@ Actors
 
 * **Consumer** Sombody who buys and consumes/reads products (e.g. John Doe).
 
-* **Directories** Service providers who collect all data which are relevant for selling and makes them accessable for other parties (e.g. (VLB)[https://www.vlb.de] ).
+* **Directories** Service providers who collect all data which are relevant for selling and makes them accessable for other parties (e.g. [VLB](https://www.vlb.de) ).
 
 Identifier
 ----------

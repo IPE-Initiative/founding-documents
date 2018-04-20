@@ -19,9 +19,9 @@ Actors
 
 * **Publisher** A publishing house or an entitiy within a publishing house. (e.g. Bertelsmann, Bonnier, Lulu press).
 
-* **Printer** Somebody who prints products. (e.g. CPI) or services who connect to printers (e.g. crispy mountain or cloudprinter). 
+* **Printer** Somebody who prints products. (e.g. CPI) or services who connect to printers (e.g. [crispy mountain](https://www.crispymtn.com/) or [cloudprinter](http://cloudprinter.com/) ). 
 
-* **POD Supplier** A printer which also sells items in their own name or in the name of the publisher (e.g. BOD, KNV-POD, Amazon POD).
+* **POD Supplier** A printer which also sells items in their own name or in the name of the publisher (e.g. [BOD](http://www.bod.de/), KNV-POD, Amazon POD).
 
 * **Book Distributor** Somebody who stores printed books and delivers them to third parties if requested (e.g. KNV, Libri).
 

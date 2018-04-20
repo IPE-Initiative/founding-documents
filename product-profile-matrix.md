@@ -1,26 +1,41 @@
 Scope
 -----
 
-Scope of this profile is to create, updated and delete product information among the supply chain.
+Scope of this profile is to **create**, **update** or **delete** **product information** among the supply chain. Main use cases could be updating a catalog or an inventory.
+
+Limitation of scope
+-------------------
+
+Not covered by this profile is ordering or printing a spefic copy of a product. This includes also any billing, reporting and accounting of sales. (-> **transaction profile**).
+
+Not covered by this profile is the way of transmission of the data. (-> **transmission profile**)
+
+Not covered by this profile is authentification. (-> **authentification profile**)
+
+Not covered by this profile is the discovery of services. (-> **discovery profile**)
 
 Actors
 ------
 
-* **Publisher** A publishing house or an entitiy within a publishing house. (e.g. CPI)
+* **Publisher** A publishing house or an entitiy within a publishing house. (e.g. Bertelsmann, Bonnier, Lulu press).
 
-* **Printer** Somebody who prints products. (e.g. CPI) 
+* **Printer** Somebody who prints products. (e.g. CPI) or services who connect to printers (e.g. crispy mountain or cloudprinter). 
 
-* **POD Supplier** A printer which also sells items in their own name or in the name of the publisher (e.g. BOD, KNV-POD, Amazon POD)
+* **POD Supplier** A printer which also sells items in their own name or in the name of the publisher (e.g. BOD, KNV-POD, Amazon POD).
 
-* **Book Distributor** Somebody who stores printed books and delivers them to third parties if requested.
+* **Book Distributor** Somebody who stores printed books and delivers them to third parties if requested (e.g. KNV, Libri).
 
-* **Wholeseller** Somebody who resells books (e.g. Libri, KNV)
+* **Wholeseller** Somebody who resells books (e.g. Libri, KNV).
 
-* **Bookstore** Sobodoy who buys books from Wholeseller and sells them to consumers
+* **Ebook Distributor** Platforms who distribute ebooks and their metadata to other parties. They could do this in the name of the publishing house (distribution model) or in their own name (aggegation model). (e.g. (readbox)[http://www.readbox.net], (openpublishing)[http://www.readbox.net], Bookwire)
 
-* **Consumer** Sombody who buys and consumes/reads products
+* **Bookstore** Sobodoy who buys books from Wholeseller and sells them to consumers (e.g. Thalia)
 
-* **Directories** Service providers who collect all data which are relevant for selling and makes them accessable for other parties.
+* ***Ebook platform*** Platform which sells electronic products to consumers (e.g. Kindle, Tolino, Apple-iTunes, Google Books, Ciando, ceebo). 
+
+* **Consumer** Sombody who buys and consumes/reads products (e.g. John Doe).
+
+* **Directories** Service providers who collect all data which are relevant for selling and makes them accessable for other parties (e.g. (VLB)[https://www.vlb.de] ).
 
 Identifier
 ----------
@@ -31,7 +46,7 @@ Every product should have a (globally) unique identifier. An identifier could be
 Components
 ----------
 
-* ***Bookblock*** Bookblock in printable form
+* ***Bookblock*** Bookblock in printable form.
 
 * **Cover** Cover file in a printable format. It could be the printable file for the Hardcover, Jacket, etc.
 
@@ -39,11 +54,11 @@ Components
 
 * **Ebook** Ebook is the electronic asset. Usually an epub (epub3/epub3) or its variants (.mobi, iBooks). 
 
-* **Sale information** Information you need to sell your product. More or less the information which would be displayed on a storefront (e.g. title, subtitle, contributors, categories, keywords, bisac subjects, abstract, prices, sales rights)
+* **Sale information** Information you need to sell your product. More or less the information which would be displayed on a storefront (e.g. title, subtitle, contributors, categories, keywords, bisac subjects, abstract, prices, sales rights).
 
 * **Order information** Information you need to actually order a book. Like which wholeseller has it in stock.
 
-* **Marketing information*** Might be extracts of titles, reviews, press-articles, summaries, biography of the author
+* **Marketing information*** Might be extracts of titles, reviews, press-articles, summaries, biography of the author.
 
 Matrix
 ------

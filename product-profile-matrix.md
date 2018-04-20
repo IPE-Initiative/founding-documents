@@ -6,7 +6,7 @@ Scope of this profile is to **create**, **update** or **delete** **product infor
 Limitation of scope
 -------------------
 
-Not covered by this profile is ordering or printing a spefic copy of a product. This includes also any billing, reporting and accounting of sales. (-> **transaction profile**).
+Not covered by this profile is ordering or printing a specific copy of a product. This includes also any billing, reporting and accounting of sales. (-> **transaction profile**).
 
 Not covered by this profile is the way of transmission of the data. (-> **transmission profile**)
 

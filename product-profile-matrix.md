@@ -17,7 +17,7 @@ Not covered by this profile is the discovery of services. (-> **discovery profil
 Actors
 ------
 
-* **Publisher** A publishing house or an entitiy within a publishing house. (e.g. Bertelsmann, Bonnier, Lulu press).
+* **Publisher** A publishing house or an entitiy within a publishing house. (e.g. Bertelsmann, Bonnier, [Lulu press](https://www.lulu.com/)).
 
 * **Printer** Somebody who prints products. (e.g. CPI) or services who connect to printers (e.g. [crispy mountain](https://www.crispymtn.com/) or [cloudprinter](http://cloudprinter.com/) ). 
 
@@ -27,7 +27,7 @@ Actors
 
 * **Wholeseller** Somebody who resells books (e.g. Libri, KNV).
 
-* **Ebook Distributor** Platforms who distribute ebooks and their metadata to other parties. They could do this in the name of the publishing house (distribution model) or in their own name (aggegation model). (e.g. [readbox](http://www.readbox.net), [openpublishing](http://openpublishing.com), Bookwire)
+* **Ebook Distributor** Platforms who distribute ebooks and their metadata to other parties. They could do this in the name of the publishing house (distribution model) or in their own name (aggegation model). (e.g. [readbox](http://www.readbox.net), [openpublishing](https://openpublishing.com), [Bookwire](https://www.bookwire.com/))
 
 * **Bookstore** Sobodoy who buys books from Wholeseller and sells them to consumers (e.g. Thalia)
 

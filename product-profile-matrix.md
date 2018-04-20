@@ -42,6 +42,7 @@ Identifier
 
 Every product should have a (globally) unique identifier. An identifier could be an EAN (e.g. "978-3-16-148410-0") an UUID (e.g. "f05b7719-afd3-4fc9-bb23-3b56293ab92a") or an identifier containing the publishername plus an identifier (e.g. "xyz-publishing-123123")
 
+(**TBD:** Should the identifier be the same when publisher sends same product to two different parties or if party forwards product from one party to the next party? Alternatively we could use two identifiers, one which is created for each communication pair and one global for the product.)
 
 Components
 ----------

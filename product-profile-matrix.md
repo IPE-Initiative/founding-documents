@@ -3,6 +3,8 @@ Scope
 
 Scope of this profile is to **create**, **update** or **delete** **product information** among the supply chain. Main use cases could be updating a catalog or an inventory.
 
+This is a suggestion for a change.
+
 Limitation of scope
 -------------------
 
